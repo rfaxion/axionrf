@@ -50,7 +50,7 @@ DataTable/Map.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/
 DataTable/MAPDATA.DAT|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/MAPDATA.DAT|C84A9DDE17F41836EE04412A8CD8D3DE
 DataTable/MsgEvent.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/MsgEvent.edf|E87337AFDFAB887EE6987D47CEE6B098
 DataTable/PlayerCharacter.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/PlayerCharacter.edf|699E83E1A37693CEF37EC43EDF9DB123
-DataTable/Quest.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Quest.edf|EC5ACD83743778920644596E3FFEACFA
+DataTable/Quest.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Quest.edf|FC27C8A541EC11D80D0E98A8614E991A
 DataTable/Resource.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Resource.edf|F82197FBEBECF425869946B113BF4AA3
 DataTable/SkillForce.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/SkillForce.edf|1831ABDE5DF20C4E283CD0F88D4BE323
 DataTable/Store.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Store.edf|E10E604B50193138706210E9AB3719E6
