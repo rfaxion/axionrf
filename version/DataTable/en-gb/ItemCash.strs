@@ -1,0 +1,29 @@
+[filemask="ItemCash.DAT"]
+
+
+struct ItemCashFile
+{
+u32 nBlocks;
+u32 nColumns;
+child ItemCashBlock [count=nBlocks];
+}
+
+struct ItemCashBlock [preload=1]
+{
+u32 nCount;
+x32 [tag="Shop Link"] DWORD;
+u32 [tag="Type"];
+x32 [tag="Code"] DWORD;
+u32 [tag="Price"] DWORD;
+u32 [tag="Active"];
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Rental Time"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+u32 [tag="Item Code"] DWORD;
+} 

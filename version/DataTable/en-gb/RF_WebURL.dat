@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<!--Web  encoding="utf-8" 해외는-->
+<WebBrowser>
+  <WebBoard>
+    <!--보드 하나당 최대수는 10개이다( 넘을경우 클라이언트 요청 )-->
+    <GameBoard>
+      <freeboard />
+      <briefingroom />
+      <tradeboard />
+      <guildboard />
+      <rftoday />
+      <combination />
+      <keyinfo />
+      <cashshopintro />
+      <cashshopcharge />
+    </GameBoard>
+    <!--NPCButton은 프로그램적으로 구현-->
+    <NpcButton>
+      <jewel_list />
+      <treasure_box_list />
+      <CombineRecipeBoard />
+      <HALL_OF_FAME />
+    </NpcButton>
+  </WebBoard>
+  <WebInfo>
+    <Element NameID="freeboard" caption="서버별 자유 게시판" sizex="680" sizey="550" ParameterType="0" URL="http://rfonline.x2game.com/community/GameBoard/Server_list.asp"></Element>
+    <Element NameID="briefingroom" caption="종합 상황실" sizex="800" sizey="600" ParameterType="1" URL="http://rfonline.x2game.com/DataCenter/Total.asp" />
+    <Element NameID="tradeboard" caption="트레이드 게시판" sizex="680" sizey="550" ParameterType="0" URL="http://rfonline.x2game.com/Community/GameBoard/trade_center_list.asp"></Element>
+    <Element NameID="guildboard" caption="길드 게시판" sizex="680" sizey="550" ParameterType="2" URL="http://rfonline.x2game.com/GUILDCAFE/game/index.asp"></Element>
+    <Element NameID="rftoday" caption="RF-Today" sizex="1000" sizey="700" ParameterType="1" URL="http://rfonline.x2game.com/event_main.asp"></Element>
+    <Element NameID="combination" caption="조합 레시피" sizex="923" sizey="723" ParameterType="1" URL="http://rfonline.x2game.com/GameInfo/recipe/recipe_pop.asp"></Element>
+    <Element NameID="keyinfo" caption="단축키 정보" sizex="630" sizey="510" ParameterType="1" URL="http://rfonline.x2game.com/GameGuide/Beginner/Hotkey_Mouse_game.asp"></Element>
+    <Element NameID="jewel_list" caption="상품 목록" sizex="533" sizey="567" ParameterType="1" URL="http://rfonline.x2game.com/popup/popupBox/master_box_small.htm"></Element>
+    <Element NameID="treasure_box_list" caption="보물상자 상품목록" sizex="533" sizey="567" ParameterType="1" URL="http://rfonline.x2game.com/gameinfo/reward/reward.asp"></Element>
+    <Element NameID="CombineRecipeBoard" caption="조합레시피 정보" sizex="555" sizey="571" ParameterType="1" URL="http://rfonline.x2game.com/gameinfo/recipe/recipe_pop.asp?idx=coebr1a"></Element>
+    <Element NameID="HALL_OF_FAME" caption="명예의 전당" sizex="584" sizey="460" ParameterType="1" URL="http://rfonline.x2game.com/popup/HallofFame/hall.htm"></Element>
+    <Element NameID="cashshopintro" caption="캐쉬샾 인트로" sizex="680" sizey="550" ParameterType="1" URL="http://rfonline.x2game.com/index.asp"></Element>
+    <Element NameID="cashshopcharge" caption="캐쉬샾 충전" sizex="680" sizey="550" ParameterType="1" URL="http://rfonline.x2game.com/index.asp"></Element>
+  </WebInfo>
+</WebBrowser>

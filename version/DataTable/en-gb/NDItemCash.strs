@@ -1,0 +1,14 @@
+[filemask="NDItemCash.dat"]
+
+struct NDItemCashFile
+{
+u32 NDItemCashBlocks;
+child NDItemCash [count=NDItemCashBlocks];
+//seek (4+NDItemCashBlocks*4);
+//u32 Unknow;
+}
+
+struct NDItemCash [preload, tableview]
+{
+u32 [tag="CASHOPCOST"];
+}

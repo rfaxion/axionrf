@@ -1,0 +1,16 @@
+[filemask="NDStore.dat"] 
+
+struct NDStoreFile 
+{ 
+u32 nBlocks; 
+child NDStore [count=nBlocks]; 
+} 
+
+struct NDStore [preload, tableview] 
+{ 
+u32 [tag="Индекс"]; 
+cstr [len=32] "Название НПСа"; 
+cstr [len=32] "Имя НПСа"; 
+u32 [id=Dlina, tag="Длина сообщения"]; 
+cstr [len=Dlina] "Сообщение НПСа"; 
+} 
