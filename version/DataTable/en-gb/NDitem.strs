@@ -1,0 +1,362 @@
+[filemask="NDItem.dat"]
+
+
+struct NDItemFile
+{
+u32 nBlocks1;
+seek (nBlocks1*64+4);
+u32 nBlocks2;
+seek (nBlocks1*64+nBlocks2*64+8);
+u32 nBlocks3;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+12);
+u32 nBlocks4;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+16);
+u32 nBlocks5;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+20);
+u32 nBlocks6;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+24);
+u32 nBlocks7;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+28);
+u32 nBlocks8;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+32);
+u32 nBlocks9;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+36);
+u32 nBlocks10;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+40);
+u32 nBlocks11;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+44);
+u32 nBlocks12;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+48);
+u32 nBlocks13;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+52);
+u32 nBlocks14;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+56);
+u32 nBlocks15;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+60);
+u32 nBlocks16;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+64);
+u32 nBlocks17;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+68);
+u32 nBlocks18;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+72);
+u32 nBlocks19;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+76);
+u32 nBlocks20;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+80);
+u32 nBlocks21;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+84);
+u32 nBlocks22;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+88);
+u32 nBlocks23;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+92);
+u32 nBlocks24;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+96);
+u32 nBlocks25;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+100);
+u32 nBlocks26;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+104);
+u32 nBlocks27;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+108);
+u32 nBlocks28;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+112);
+u32 nBlocks29;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+116);
+u32 nBlocks30;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+120);
+u32 nBlocks31;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+124);
+u32 nBlocks32;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+128);
+u32 nBlocks33;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+132);
+u32 nBlocks34;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+136);
+u32 nBlocks35;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+140);
+u32 nBlocks36;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+144);
+u32 nBlocks37;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+148);
+u32 nBlocks38;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+152);
+u32 nBlocks39;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+156);
+u32 nBlocks40;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+160);
+u32 nBlocks41;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+164);
+u32 nBlocks42;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+nBlocks42*64+168);
+u32 nBlocks43;
+seek (nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+nBlocks42*64+nBlocks43*64+172);
+u32 nBlocks44;
+
+
+
+child 0 [group="лицо", offset=(4), count=nBlocks1];
+child 1 [group="куртка", offset=(nBlocks1*64+8), count=nBlocks2];
+child 2 [group="штаны", offset=(nBlocks1*64+nBlocks2*64+12), count=nBlocks3];
+child 3 [group="перчи", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+16), count=nBlocks4];
+child 4 [group="ботинки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+20), count=nBlocks5];
+child 5 [group="шлемы", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+24), count=nBlocks6];
+child 6 [group="оружие", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+28), count=nBlocks7];
+child 7 [group="щиты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+32), count=nBlocks8];
+child 8 [group="плащи", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+36), count=nBlocks9];
+child 9 [group="кольцо", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+40), count=nBlocks10];
+child 10 [group="амулеты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+44), count=nBlocks11];
+child 11 [group="патроны", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+48), count=nBlocks12];
+child 12 [group="устройства", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+52), count=nBlocks13];
+child 13 [group="поты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+56), count=nBlocks14];
+child 14 [group="сумки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+60), count=nBlocks15];
+child 15 [group="батареи", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+64), count=nBlocks16];
+child 16 [group="руда", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+68), count=nBlocks17];
+child 17 [group="ресурсы", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+72), count=nBlocks18];
+child 18 [group="маяки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+76), count=nBlocks19];
+child 19 [group="ключи мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+80), count=nBlocks20];
+child 20 [group="лут + модики", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+84), count=nBlocks21];
+child 21 [group="карты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+88), count=nBlocks22];
+child 22 [group="телепорты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+92), count=nBlocks23];
+child 23 [group="ключи активации врат", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+96), count=nBlocks24];
+child 24 [group="анимусы", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+100), count=nBlocks25];
+child 25 [group="турели", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+104), count=nBlocks26];
+child 26 [group="мины", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+108), count=nBlocks27];
+child 27 [group="осадки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+112), count=nBlocks28];
+child 28 [group="билеты", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+116), count=nBlocks29];
+child 29 [group="предметы для телепортации на опред. локи", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+120), count=nBlocks30];
+child 30 [group="капсулы восстановления опыта", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+124), count=nBlocks31];
+child 31 [group="коробки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+128), count=nBlocks32];
+child 32 [group="феерверки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+132), count=nBlocks33];
+child 33 [group="буровые установки", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+136), count=nBlocks34];
+child 34 [group="радар", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+140), count=nBlocks35];
+child 35 [group="пейджеры", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+144), count=nBlocks36];
+child 36 [group="купоны", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+148), count=nBlocks37];
+child 37 [group="голова мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+152), count=nBlocks38];
+child 38 [group="броня мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+156), count=nBlocks39];
+child 39 [group="ноги мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+160), count=nBlocks40];
+child 40 [group="руки мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+164), count=nBlocks41];
+child 41 [group="доп. оружие мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+168), count=nBlocks42];
+child 42 [group="ускоритель мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+nBlocks42*64+172), count=nBlocks43];
+child 43 [group="патроны мау", offset=(nBlocks1*64+nBlocks2*64+nBlocks3*64+nBlocks4*64+nBlocks5*64+nBlocks6*64+nBlocks7*64+nBlocks8*64+nBlocks9*64+nBlocks10*64+nBlocks11*64+nBlocks12*64+nBlocks13*64+nBlocks14*64+nBlocks15*64+nBlocks16*64+nBlocks17*64+nBlocks18*64+nBlocks19*64+nBlocks20*64+nBlocks21*64+nBlocks22*64+nBlocks23*64+nBlocks24*64+nBlocks25*64+nBlocks26*64+nBlocks27*64+nBlocks28*64+nBlocks29*64+nBlocks30*64+nBlocks31*64+nBlocks32*64+nBlocks33*64+nBlocks34*64+nBlocks35*64+nBlocks36*64+nBlocks37*64+nBlocks38*64+nBlocks39*64+nBlocks40*64+nBlocks41*64+nBlocks42*64+nBlocks43*64+176), count=nBlocks44];
+}
+
+struct 0 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+struct 1 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+struct 2 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+
+struct 3 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+struct 4 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+struct 5 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}  
+
+struct 6 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+} 
+
+struct 7 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}   
+
+struct 8 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}   
+
+struct 9 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+} 
+
+struct 10 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+} 
+
+
+struct 11 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 12 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 13 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 14 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 15 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 16 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 17 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 18 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 19 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 20 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 21 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 22 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 23 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 24 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 25 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 26 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 27 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 28 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 29 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 30 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 31 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 32 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 33 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 34 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 35 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 36 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 37 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 38 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 39 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 40 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 41 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 42 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
+
+struct 43 [preload=1, tableview=1]
+{
+cstr [len = 64,tag = "название"];
+}
