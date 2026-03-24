@@ -2,12 +2,9 @@ DataTable/Character.edf|https://raw.githubusercontent.com/RFNewW/update-server-n
 DataTable/clientdb.dat|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/clientdb.dat|BEED48B630D706D56EA85E39E5586F04
 DataTable/EventShip.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/EventShip.edf|A3C1784A5E20E552DC3458F1EE22FA0E
 DataTable/EventSound.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/EventSound.edf|DC20221A701E4A794A4BF006D6DC083F
-DataTable/font.ini|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/font.ini|0567D7635F2E2376D35B9510FB90C396
 DataTable/gamedata.dat|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/gamedata.dat|A8D3A18249BFC2358A62FF79DF180ED6
 DataTable/gamedb.dat|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/gamedb.dat|A8C5D889812A97A8BA0EFBE543EAA470
-DataTable/GameSetting.ini|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/GameSetting.ini|794845D68594FD9733409D71C7A523C3
 DataTable/Item.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Item.edf|CD80CC43D5A6F72CAA406271660106CF
-DataTable/Item.rar|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Item.rar|289126A11A0CA2A5E8357F10B6C51B43
 DataTable/ItemCash.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/ItemCash.edf|E758D8C0D688B95B183019AEB3126247
 DataTable/ItemCombine.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/ItemCombine.edf|008BC0BF35F8858BA4CF768FD737E708
 DataTable/ItemPremium.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/ItemPremium.edf|79FFC4F52E4EB26D02BD03CD8ECE24C5
