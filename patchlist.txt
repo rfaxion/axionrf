@@ -1,4 +1,3 @@
-RF_Online.bin|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/RF_Online.bin|6116BF36B7D281CB8BD4092B931F8C44
 DataTable/Character.edf|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Character.edf|57FC87B114C830DDF622304F14746D6B
 DataTable/clientdb.dat|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/clientdb.dat|BEED48B630D706D56EA85E39E5586F04
 DataTable/Csxx.txt|https://raw.githubusercontent.com/RFNewW/update-server-newwar/main/version/DataTable/Csxx.txt|4DE35C3E04E446D1737EFAB7752666FC
